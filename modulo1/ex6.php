@@ -1,9 +1,9 @@
 <?php
 // Lê a primeira linha da entrada
-list($p1, $numero1, $valor1) = explode(' ', '12 1 5.30');
+list($p1, $numero1, $valor1) = explode(' ', '13 2 15.30');
 
 // Lê a segunda linha da entrada
-list($p2, $numero2, $valor2) = explode(' ', '16 2 5.10');
+list($p2, $numero2, $valor2) = explode(' ', '161 4 5.10');
 
 // Calcula o valor total
 $total = ($numero1 * $valor1) + ($numero2 * $valor2);
