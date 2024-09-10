@@ -31,7 +31,7 @@ foreach ($notas as $nota) {
 }
 
 // Processamento das moedas
-// A parte inteira pode ter sobrado, então juntamos com a parte decimal
+// A parte inteira pode ter sobrado, então juntamos com a parte decimal.
 $valor_decimal += $valor_inteiro * 100;
 
 echo "MOEDAS:\n";
