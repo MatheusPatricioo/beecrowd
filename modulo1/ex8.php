@@ -8,7 +8,7 @@ O arquivo de entrada contém um valor de ponto flutuante N (0 ≤ N ≤ 1000000.
 Saída
 Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.
 
-Obs: Utilize ponto (.) para separar a parte decimal.
+Obs: Utilize ponto (.) para separar a parte decimal. :)
 <?php
 
 // Leitura do valor de entrada
