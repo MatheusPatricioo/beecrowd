@@ -1,0 +1,15 @@
+{
+    "name": "mpmat/beecrowd",
+    "autoload": {
+        "psr-4": {
+            "Mpmat\\Beecrowd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheus Patricio",
+            "email": "matheuspatricio.aspx@gmail.com"
+        }
+    ],
+    "require": {}
+}
