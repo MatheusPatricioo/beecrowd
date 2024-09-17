@@ -13,6 +13,6 @@ foreach ($respostas as $resposta) {
     }
 }
 
-// Saída
+// Saída.
 echo $acertos . "\n";
 ?>
