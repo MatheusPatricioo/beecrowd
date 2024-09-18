@@ -3,7 +3,7 @@
 $texto = fgets(STDIN);
 $texto = trim($texto);
 
-// PRIMEIRA PASSADA: Deslocar letras 3 posições para a direita na tabela ASCII
+// PRIMEIRA PASSADA: Deslocar as letras 3 posições para a direita na tabela ASCII
 for ($i = 0; $i < strlen($texto); $i++) {
     if (ctype_alpha($texto[$i])) {  // Verifica se é uma letra (maiúscula ou minúscula)
         $ascii = ord($texto[$i]);
