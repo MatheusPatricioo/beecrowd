@@ -21,7 +21,8 @@ foreach ($temperaturas as $temp) {
 }
 
 // Função de Insertion Sort para ordenar o array
-function insertionSort(&$array) {
+function insertionSort(&$array)
+{
     $n = count($array);  // Número de elementos no array
     for ($i = 1; $i < $n; $i++) {
         $key = $array[$i];  // Pega o elemento atual para ser inserido na parte ordenada

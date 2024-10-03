@@ -41,3 +41,4 @@ echo "Menor pontuação em estratégia: " . $menor2 . "\n";
 echo "Maior pontuação em estratégia: " . $maior2 . "\n";
 
 ?>
+ 

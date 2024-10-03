@@ -10,7 +10,7 @@ for ($i = 0; $i < 10; $i++) {
     echo "Digite a pontuação de " . $nome . ": ";
     $temp = (float) readline();
 
-    $points[] = $temp; 
+    $points[] = $temp;
     $nomes[] = $nome;
 }
 
@@ -22,7 +22,8 @@ foreach ($nomes as $index => $nome) {
 }
 
 // Função de ordenação usando insertion sort
-function insertionSort(&$points, &$nomes) {
+function insertionSort(&$points, &$nomes)
+{
     $n = count($points); // Número de elementos no array
     for ($i = 1; $i < $n; $i++) {
         $keyPoints = $points[$i]; // Pega a pontuação atual para ser inserida na parte ordenada
