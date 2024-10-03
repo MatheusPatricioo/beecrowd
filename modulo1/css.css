@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F4F8;
+    color: #333333;
+}
+
+nav {
+    background-color: #1F2D3D;
+}
+
+nav a {
+    color: #F0F4F8;
+}
+
+button, .cta {
+    background-color: #4A90E2;
+    color: white;
+}
+
+button:hover, .cta:hover {
+    background-color: #D94F70;
+}
+
+footer {
+    background-color: #1F2D3D;
+    color: #F0F4F8;
+}
+
+footer a {
+    color: #4A90E2;
+}
